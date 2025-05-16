@@ -28,4 +28,9 @@ public class CalculatorTest {
         assertEquals(2,c.divide(28,14));
         assertEquals(0,c.divide(0,7));
     }
+
+    @Test
+    public void divideByZero() {
+        c.divide(40,0); //Should throw Exception
+    }
 }
