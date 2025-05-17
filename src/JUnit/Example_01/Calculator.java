@@ -1,4 +1,4 @@
-package JUnit.Basics;
+package JUnit.Example_01;
 
 public class Calculator {
     public int add(int a, int b) {
@@ -12,7 +12,6 @@ public class Calculator {
     }
     public int divide(int a, int b) {
         if (b == 0) throw new ArithmeticException("Can't Divide by Zero");
-//        if (a == 0) return 0;
         return a / b;
     }
 

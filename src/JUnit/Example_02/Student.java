@@ -1,4 +1,4 @@
-package JUnit.Basics;
+package JUnit.Example_02;
 
 public class Student {
     private String name;

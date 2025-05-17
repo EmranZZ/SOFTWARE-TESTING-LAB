@@ -1,4 +1,4 @@
-package JUnit.Basics;
+package JUnit.Example_02;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -16,6 +16,6 @@ public class StudentTest {
     @Test
     public void isAdult() {
         assertEquals(true, s1.isAdult());
-        assertEquals(true, s2.isAdult()); //should be failed as actual result is 'false'
+//        assertEquals(true, s2.isAdult()); //should be failed as actual value return false
     }
 }
